@@ -1,0 +1,61 @@
+
+/* フォント指定 */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap');
+
+#message0 {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+
+/* タイトルのボタン */
+.btn_04_yellow {
+    position: relative;
+    display: inline-block;
+    padding: .9em .6em;
+    background-color: #F6AD3A;
+    color: #fefefe;
+    text-shadow: none;
+    border-radius: 16px;
+    box-shadow: 0 5px 0 #be6f12;
+    box-sizing: content-box;
+    transition: .2s;
+  }
+
+  .btn_04_yellow::after {
+    position: absolute;
+    content: "";
+    background-color: none;
+    top: 4px;
+    right: 4px;
+    bottom: 4px;
+    left: 4px;
+    border-radius: 12px;
+    border: 2px dashed #eee;
+}
+
+/* 診断中のボタン */
+.btn_07_black {
+  background: #000000;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 12px 24px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn_07_black:hover {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+/* メッセージの左右余白 */
+#message {
+ width: 1120px;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
